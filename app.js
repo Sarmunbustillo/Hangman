@@ -7,7 +7,21 @@ const finalMessage = document.querySelector('.final-message');
 
 const figureParts = document.querySelectorAll('.figure-part');
 
-const words = ['application', 'programming', 'interface', 'wizard'];
+const words = [
+  'person',
+  'human',
+  'tank',
+  'wizard',
+  'truck',
+  'laptop',
+  'glasses',
+  'mushrooms',
+  'cat',
+  'cellphone',
+  'football',
+  'helmet',
+  'bottle',
+];
 
 let selectedWord = words[Math.floor(Math.random() * words.length)];
 
